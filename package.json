@@ -1,0 +1,41 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Just playground for webpack",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "watch": "webpack --watch --config webpack.dev.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipalopezhentsev/webpack-test.git"
+  },
+  "author": "Ilya Palopezhentsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipalopezhentsev/webpack-test/issues"
+  },
+  "homepage": "https://github.com/ipalopezhentsev/webpack-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "lodash-es": "^4.17.15"
+  }
+}
